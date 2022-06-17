@@ -169,7 +169,7 @@ test('should return an array of chevy cars', (expect) => {
 });
 
 
-test('should return an models string', (expect) => {
+skip('should return an models string', (expect) => {
     const expected = 'taurusmalibubroncosilveradoexpresscamero';
 
     const actual = makeModelsStringWithReduce([...vehicles]);
